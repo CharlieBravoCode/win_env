@@ -1,0 +1,36 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore logs
+*.log
+
+# Ignore package dependencies
+/.venv/
+/.env/
+/.venv3/
+/.tox/
+/.pytest_cache/
+
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Ignore sensitive or personal data
+config.ini
+secret.txt
+passwords.txt
